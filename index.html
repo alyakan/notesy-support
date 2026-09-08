@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Notesy — Support</title>
+<meta name="description" content="Support and help for Notesy: Calm Note Taking, a warm, minimal handwriting notes app for iPad.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #faf6ee;
+    --card: #ffffff;
+    --ink: #3d3833;
+    --muted: #7a7266;
+    --accent: #b0684a;
+    --rule: #e8e0d3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #23201c;
+      --card: #2c2823;
+      --ink: #ece5da;
+      --muted: #a89e91;
+      --accent: #d98d6c;
+      --rule: #3c362f;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Nunito", -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.65;
+    padding: 3rem 1.25rem 4rem;
+  }
+  main { max-width: 40rem; margin: 0 auto; }
+  .wordmark {
+    font-family: "Caveat", cursive;
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: var(--accent);
+    line-height: 1.1;
+  }
+  .tagline { color: var(--muted); font-size: 1.05rem; margin-top: .25rem; }
+  h2 {
+    font-size: 1.15rem;
+    font-weight: 800;
+    margin: 2.4rem 0 .6rem;
+    letter-spacing: .01em;
+  }
+  p, li { font-size: 1rem; }
+  ul { padding-left: 1.2rem; }
+  li { margin: .45rem 0; }
+  a { color: var(--accent); font-weight: 700; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    padding: 1.1rem 1.3rem;
+    margin: 1rem 0;
+  }
+  footer {
+    margin-top: 3rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: .9rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="wordmark">Notesy</div>
+    <p class="tagline">Calm note taking — a warm, minimal handwriting app for iPad.</p>
+  </header>
+
+  <h2>Getting help</h2>
+  <div class="card">
+    <p><strong>Found a bug or have a feature idea?</strong>
+    <a href="https://github.com/alyakan/notesy-support/issues">Open an issue</a> —
+    it goes straight to the developer.</p>
+  </div>
+  <div class="card">
+    <p><strong>Questions about donations or purchases?</strong>
+    Donations are optional tips handled entirely by Apple. They unlock nothing,
+    and refunds go through
+    <a href="https://reportaproblem.apple.com">Apple&rsquo;s Report a Problem</a> page.</p>
+  </div>
+
+  <h2>Tips</h2>
+  <ul>
+    <li><strong>Tools</strong> live behind the small tab on the edge of the paper — pull it out.</li>
+    <li><strong>Pause mid-stroke</strong> to snap it into a straight line (can be turned off in Settings).</li>
+    <li><strong>Turn pages</strong> by swiping with two fingers (one finger when &ldquo;Draw with finger&rdquo; is off).</li>
+    <li><strong>Build your own paper</strong> in Settings → Page templates: place checkboxes, boxes, and lines, or draw your own — then pick it for any notebook.</li>
+  </ul>
+
+  <h2>Privacy</h2>
+  <p>Notesy collects no data. Read the <a href="privacy/">privacy policy</a>.</p>
+
+  <footer>
+    Notesy is made by an independent developer. &copy; 2026 Aly Yakan.
+  </footer>
+</main>
+</body>
+</html>

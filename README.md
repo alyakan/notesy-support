@@ -2,6 +2,10 @@
 
 **Notesy: Calm Note Taking** is a warm, minimal handwriting notes app for iPad.
 
+This repo backs the support site at
+**<https://alyakan.github.io/notesy-support/>** (privacy policy:
+<https://alyakan.github.io/notesy-support/privacy/>).
+
 ## Getting help
 
 - **Found a bug or have a feature idea?** [Open an issue](../../issues) on this
