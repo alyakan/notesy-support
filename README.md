@@ -10,8 +10,11 @@ This repo backs the support site at
 
 - **Found a bug or have a feature idea?** [Open an issue](../../issues) on this
   repository — it goes straight to the developer.
-- **Questions about donations/purchases:** donations are optional tips handled
-  entirely by Apple. They unlock nothing, and refunds are handled through
+- **Questions about tips, pledges or purchases:** tips and the monthly or
+  yearly pledges are optional and handled entirely by Apple. Tips unlock
+  nothing; an active pledge turns on the Ember supporter theme. Restore a
+  pledge with Restore purchases in Support development, manage or cancel it in
+  your App Store account settings, and get refunds through
   [Apple's report a problem](https://reportaproblem.apple.com) page.
 
 ## Tips
@@ -26,4 +29,5 @@ This repo backs the support site at
 
 ## Privacy
 
-Notesy collects no data. See the [privacy policy](PRIVACY.md).
+Notesy collects no data. Optional iCloud sync uses your own private iCloud
+database, which the developer cannot see. See the [privacy policy](PRIVACY.md).
